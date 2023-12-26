@@ -6,10 +6,6 @@ def get_country_codes(country_name):
     for code, name in COUNTRIES.items():
         if name == country_name:
             return code
+
     # If the country wasn't found, return None.
     return None
-
-
-print(get_country_codes('Andorra'))
-print(get_country_codes('United Arab Emirates'))
-print(get_country_codes('Afghanistan'))
